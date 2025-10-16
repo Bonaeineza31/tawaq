@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+import SignIn from './pages/signin';
+import SignUp from './pages/signup';
 import Layout from './components/Layout';
 import Dashboard from './components/Dashboard';
 import Project from './components/project';
