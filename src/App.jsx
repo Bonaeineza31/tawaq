@@ -11,6 +11,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('signin');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
+  
   const handleNavigate = (page) => {
     const normalizedPage = page.toLowerCase();
     
