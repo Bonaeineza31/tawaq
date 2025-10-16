@@ -1,6 +1,6 @@
 import React from 'react';
 import { Plus, Users } from 'lucide-react';
-import './Project.css';
+import './project.css';
 
 const Project = () => {
   const projects = [

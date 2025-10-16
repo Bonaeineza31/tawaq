@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Plus, MoreVertical, ChevronLeft, ChevronRight, X } from 'lucide-react';
-import './Transaction.css';
+import './transaction.css';
 
 const Transaction = () => {
   const [searchTerm, setSearchTerm] = useState('');
