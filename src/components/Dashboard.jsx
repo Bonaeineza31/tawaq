@@ -11,7 +11,7 @@ import {
   ChevronRight,
 } from "lucide-react"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts"
-import "./dashboard.css"
+import "./Dashboard.css"
 
 const analyticsData = [
   { month: "Jan", Revenue: 38000000, Expenses: 0, maxValue: 50000000 },
