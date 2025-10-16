@@ -1,0 +1,99 @@
+.navbar {
+  height: 64px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  position: fixed;
+  top: 0;
+  left: 240px;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #f9fafb;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 320px;
+}
+
+.navbar-search svg {
+  color: #9ca3af;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-icon {
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.navbar-icon:hover {
+  color: #4b0082;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ef4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.user-dropdown {
+  color: #6b7280;
+}
